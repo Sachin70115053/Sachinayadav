@@ -1,0 +1,49 @@
+.about-us-container {
+    padding: 20px;
+    background-color: #5F6366;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 0; /* Remove default padding */
+    list-style: none; /* Remove default list style */
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+a{
+    color:#EDB5Df
+}

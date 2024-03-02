@@ -1,0 +1,105 @@
+/* MentorCard component styling */
+
+/* Container for MentorCard */
+.mentor-card-container {
+    width: 25vw; /* 25% of viewport width for each card */
+    margin: 20px; /* Apply margin within the cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    border-radius: 10px; /* Add rounded corners */
+    transition: transform 0.3s ease; /* Add scaling transition */
+    display: flex; /* Ensure flex display for consistent width */
+    flex-direction: column; /* Arrange elements in a column */
+  }
+  
+  /* Image styling */
+  .mentor-card-container img {
+    width: 100%; /* Make the image fill its container */
+    border-top-left-radius: 10px; /* Rounded corners for the image */
+    border-top-right-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  /* Mentor details styling */
+  .mentor-details {
+    padding: 10px;
+  }
+  
+  /* Name styling */
+  .mentor-details h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* College styling */
+  .mentor-details h3 {
+    font-size: 16px;
+    color: #666; /* Gray color for college */
+    margin-bottom: 5px;
+  }
+  
+  /* Current company styling */
+  .mentor-details p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* LPA styling */
+  .mentor-details h2 {
+    font-size: 16px;
+    color: #007bff; /* Blue color for LPA */
+    margin-bottom: 5px;
+  }
+  
+  /* Skills styling */
+  .mentor-details p:last-child {
+    font-size: 14px;
+    color: #777; /* Gray color for skills */
+  }
+  
+  /* Price tag styling */
+  .price-tag {
+    font-size: 14px;
+    color: #333; /* Dark color for price tag */
+    margin-top: 10px;
+  }
+  
+  /* Enroll button styling */
+  .enroll-button {
+    padding: 10px 16px; /* Increase padding for larger button width */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Add transition */
+    width: 100%; /* Ensure button fills its container width */
+  }
+  
+  .enroll-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Hover effect */
+  .mentor-card-container:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+
+  /* Add styles for vote buttons */
+/* Add styles for like and dislike buttons */
+.like-dislike-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-button,
+  .dislike-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Position the buttons to the right */
+  .like-button {
+    margin-right: 10px;
+  }
+  
+  

@@ -1,0 +1,110 @@
+/* General styles */
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+/* Container for programs section */
+.programs {
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  background-color: #f5f5f5;
+}
+
+/* Outer container for the slider */
+.outer {
+  width: 99vw;
+  /* border: 2px solid green; */
+  margin: 2vh auto;
+  position: relative; /* Add position relative */
+}
+
+/* Inner container for the slider */
+.inner {
+  margin-top: 3vh;
+}
+
+/* Slide container */
+.slide {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  border-radius:10px;
+  padding-top:0.4vh;
+
+}
+
+/* Apply scaling and box shadow effect on hover for cards with class 'card' */
+.slide:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+
+/* Apply scaling effect to active slide */
+.slide.slick-center .mp {
+  transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+/* Image container within the slide */
+.mp {
+  height: 40vh; /* Adjust height of the image container */
+  width: 25vw; /* Adjust width of the image container */
+  /* border: 2px solid red; Add border to the image container */
+  overflow: hidden; /* Ensure the image doesn't overflow its container */
+  transition: transform 0.3s ease; /* Add transition for scaling effect */
+  margin:0 auto;
+}
+
+/* Image within the image container */
+.image {
+
+  height: 90%;
+  margin-top:2vh;
+  width: 100%;
+  /* object-fit: cover; Ensure the image maintains its aspect ratio and covers the container */
+}
+
+/* Description container within the slide */
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+}
+
+/* Arrow buttons container */
+.arrow-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1; /* Ensure it's above the slider */
+}
+
+/* Left and right arrow icons */
+.left-arrow,
+.right-arrow {
+  cursor: pointer;
+  font-size: 2rem;
+  color: green;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for arrow icons */
+.left-arrow:hover,
+.right-arrow:hover {
+  color: darkgreen;
+}

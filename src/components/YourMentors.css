@@ -1,0 +1,47 @@
+.icons{
+    height:30px;
+    width:30px;
+}
+
+.mentor{
+    height:50vh;
+    width:30vw;
+    border-radius:20px;
+}
+
+.images{
+    height:4vh;
+    display:flex;
+    width:20.5vw;
+    
+    border-radius:10px;
+    justify-content: space-between;
+
+    
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #ccc; /* Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    padding: 20px; /* Add padding for space */
+    transition: transform 0.3s ease; /* Add transition for scaling effect */
+    margin:4vh auto;
+    background-color: #EDB5BF;
+}
+
+.parent:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.heading{
+    padding:1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    margin:4vh auto;
+    border-radius:10px;
+
+
+}

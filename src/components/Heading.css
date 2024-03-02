@@ -1,0 +1,13 @@
+.programmes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.programmes::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid black; /* Add a solid blue line below the text */
+    width: 100%; /* Set width to cover the entire width of the container */
+    margin-top: 5px; /* Adjust the margin to separate the line from the text */
+}

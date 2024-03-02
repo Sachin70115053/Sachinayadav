@@ -1,0 +1,41 @@
+.Mentor-block{
+
+    width:99.5vw;
+    padding-top:3vh;
+    padding-bottom:2vh;
+    display:flex;
+    border:2px solid blue;
+    
+}
+
+.block {
+    color: #656565;
+    font-size: larger;
+    font: 18px kohinoor;
+    height: 37vh;
+    width: 30vw;
+    margin: 5vw auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #0AB070;  */
+    background-color: #4d6d9a;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect for transform and box-shadow */
+}
+
+.block:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    cursor:pointer;
+}
+
+
+
+
+.text{
+    color:#FFFFFF;
+    font:3vh kohinoor;
+    Margin:13px 0px
+
+}
