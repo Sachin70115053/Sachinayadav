@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+*Introducing Kalki Developers' Personalized Mentorship Program for FY Students*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+At Kalki Developers, we understand the challenges faced by first-year students as they embark on their academic journey. That's why we're excited to introduce our personalized mentorship program, designed to provide invaluable guidance and support to FY students by connecting them with experienced seniors and alumni currently thriving in internships and placements.
 
-## Available Scripts
+*Key Features:*
 
-In the project directory, you can run:
+1. *Comprehensive Roadmap:* We offer a structured roadmap to help FY students navigate their four years of study efficiently. Our program outlines essential milestones, academic targets, and extracurricular opportunities to maximize their collegiate experience.
 
-### `npm start`
+2. *Programming Proficiency:* Our mentors assist students in refining fundamental programming concepts, from syntax to problem-solving techniques. Through personalized guidance and practice exercises, we ensure students develop a strong foundation in programming skills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. *Industry-Relevant Skills:* Beyond technical expertise, we focus on cultivating essential industry skills such as communication, teamwork, and problem-solving abilities. Our mentors provide practical advice and real-world scenarios to prepare students for success in diverse professional environments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. *Resource Guidance:* We direct students to a curated selection of resources, including textbooks, online tutorials, and coding platforms, to enhance their learning experience. Whether it's mastering a new programming language or tackling challenging problems, we connect students with the right tools for the job.
 
-### `npm test`
+5. *Structured Skill Development:* Our program guides students through a systematic learning process, ensuring they acquire job-ready skills in a logical and orderly manner. From software development methodologies to project management techniques, we cover a wide range of topics essential for career readiness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. *Personalized Motivation:* Each student is paired with a dedicated mentor who provides personalized support and encouragement throughout their journey. Whether it's overcoming academic hurdles or staying motivated during challenging times, our mentors are committed to empowering students to reach their full potential.
 
-### `npm run build`
+Join Kalki Developers' Personalized Mentorship Program today and embark on a transformative learning experience tailored to your unique needs and aspirations. Together, we'll pave the way for your success in academia and beyond.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Our profit model:-
+Our profit model entails receiving 10% of the fee from each student who purchases our mentorship program, while the remaining fee is allocated to the mentor. This approach ensures that mentors are appropriately incentivized to provide enthusiastic and accurate guidance to students, thus maintaining their motivation.
